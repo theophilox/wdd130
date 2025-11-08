@@ -18,6 +18,32 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
+
+main {
+    max-width: 500px;
+}
+
+main {
+    width: 350px;
+    height: auto;
+}
+
+aside {
+    width: 500px;
+    margin: 10px;
+    border: 1px solid black;
     padding: 10px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 10px;
+    text-align: center;
 }
