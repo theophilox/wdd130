@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 header, main, footer {
@@ -47,6 +47,13 @@ article {
 nav, p, article, section {
     margin: 16px;
     padding: 8px;
+}
+
+section h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    padding: 20px;
+    background-color: var(--primary-color);
 }
 
 .socialmedia a {
