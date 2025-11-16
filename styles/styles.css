@@ -77,6 +77,9 @@ main img{
 
 
 aside {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
     border-radius: 10px;
     position: relative;
     left: 25px;
@@ -96,7 +99,7 @@ aside h2 {
 aside img {
     margin: 0px 10px 10px 10px;
     display: block;
-    width: 450px;
+    width: 200px;
     height: auto;
 }
 
