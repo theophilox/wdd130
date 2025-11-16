@@ -93,14 +93,15 @@ aside h2 {
     color: white;
     position: absolute;
     top: 25px;
-    left: 200px;
+    left: 190px;
 }
 
 aside img {
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 130px;
     display: block;
     width: 200px;
     height: auto;
+    
 }
 
 footer {
