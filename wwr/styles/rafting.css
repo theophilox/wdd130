@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #33A6A6;
-    --secondary-color: #D9EEF3;
+    --primary-color: #1d6161;
+    --secondary-color: #97dbec;
     --accent1-color: #FFD95A;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial,Helvetica, sans-serif;
@@ -79,7 +79,7 @@ section h2 {
     position: absolute;
     bottom: 20px;
     padding: 16px;
-    opacity: 0.65;
+    opacity: 0.9;
     background-color: var(--accent1-color);
     color: #121212;
 }
