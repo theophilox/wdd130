@@ -21,16 +21,20 @@ nav {
     display: flex;
     background-color: darkblue;
     padding: 2px;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 nav a {
+    display: block;
     border-radius: 10px;
     margin: 10px;
     color: white;
-    display: block;
     padding: 10px 20px 10px 20px;
     border: 2px solid var(--lighter-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 p{
@@ -40,7 +44,10 @@ p{
 h1 {
     text-align: center;
     margin: 0px 10px 10px 10px;
+    border-bottom: 1px solid black;
     color: darkblue;}
+
+    
 
 img {
     width: 150px;
@@ -50,12 +57,18 @@ img {
 }
 
 
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0px
+}
+
 main {
     border-radius: 10px;
-    margin: 10px;
     padding: 1rem;
     background-color: var(--light-color);
     max-width: 560px;
+    grid-column: 2/5;
+    margin: 1rem;
     
 }
 
@@ -77,14 +90,14 @@ main img{
 
 
 aside {
+    width: 20rem;
+    height: auto;
+    grid-row: 1;
     margin: 0px;
     border: 0px;
     padding: 0px;
     border-radius: 10px;
     position: relative;
-    left: 25px;
-    text-align: center;
-    width: 500px;
     background-color: var(--lighter-color);
     color: black;
 }
@@ -92,16 +105,14 @@ aside {
 aside h2 {
     color: white;
     position: absolute;
-    top: 25px;
-    left: 190px;
+    top: 40px;
+    left: 100px;
 }
 
 aside img {
-    margin: 0px 10px 10px 130px;
-    display: block;
-    width: 200px;
+    margin: 20px px;
+    width: 100%;
     height: auto;
-    
 }
 
 footer {
@@ -120,4 +131,9 @@ footer {
     margin: 1rem;
     border: 1px solid black;
     padding: 1rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
