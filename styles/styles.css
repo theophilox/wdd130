@@ -37,6 +37,10 @@ nav a {
     font-weight: 700;
 }
 
+nav a:hover {
+    background-color: var(--mid-color);
+}
+
 p{
     padding: 0px;
 }
