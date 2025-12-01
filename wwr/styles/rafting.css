@@ -28,7 +28,7 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -163,6 +163,11 @@ footer p {
     padding: 1px;
 }
 
+.company h1 {
+    display: block;
+
+}
+
 iframe {
     width: 450px;
     
@@ -172,8 +177,62 @@ iframe {
 
 
 
-frame {
+.contact-form {
     display: grid;
-    max-width: 300px;
-    border: 1px solid black;
+    grid-template-columns: 2fr 2fr;
+    font-size: small;
+
+}
+
+.contact-form label {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact {
+    display: grid;
+}
+
+.contact div {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.contact p {
+    grid-row: 1 / 4;}
+
+.radio-type {
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.employees h2 {
+    grid-column: 1/4;
+}
+.employees figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    text-align: center;
+    font-size: small;
+    height: auto;
+    width: 150px;
 }
