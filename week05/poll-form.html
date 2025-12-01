@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>User Log-in</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Fullname:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="userbrowser">Your favorite browser:</label>
+
+                    <select name="browser" id="browser">
+                        <option value="--Select Below--">-----------Select Below-----------</option>
+                        <option value="Google Chrome">Google Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Microsoft Edge">Microsoft Edge</option>
+                        <option value="Mozilla Firefox">Mozilla Firefox</option>
+                        <option value="Brave">Brave</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="Pet">
+                        Do you have a household pet?
+                        <input type="checkbox" id="pet" name="pet">
+                    </label>
+                </div>
+
+                <label for="finalquestion">List the places you have lived:</label>
+                <textarea id="finalquestion" name="finalquestion" rows="1" cols="1"
+                    placeholder="Shimoda, Shizuoka"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll </button>
+        </form>
+    </main>
+
+    <footer>
+        <p>©2025 | HTML Form - User Poll Form | Nathan Javier</p>
+    </footer>
+
+</body>
+
+</html>

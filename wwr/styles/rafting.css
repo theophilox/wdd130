@@ -20,7 +20,7 @@ body {
 
 header, main, footer {
     width: 840px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 h1, h2 {
@@ -56,8 +56,12 @@ nav, p, article, section {
     grid-template-columns: 30% 70%;
     align-items: center;
 }
-.flex ul {
-    
+
+.flex img {
+    border-radius: 10px;
+}
+
+.flex ul { 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,6 +91,7 @@ section h2 {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 .hero article img { 
