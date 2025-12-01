@@ -150,3 +150,30 @@ footer p {
     display: grid;
     grid-template-columns: 80% 20%;
 }
+
+.company {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.company p {
+    margin: 1px;
+    padding: 1px;
+}
+
+iframe {
+    width: 450px;
+    
+    float: left;
+    margin: 10px;
+}
+
+
+
+frame {
+    display: grid;
+    max-width: 300px;
+    border: 1px solid black;
+}
