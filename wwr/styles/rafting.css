@@ -1,7 +1,7 @@
 :root {
     --primary-color: #1d6161;
     --secondary-color: #97dbec;
-    --accent1-color: #FFD95A;
+    --accent1-color: #f2f9fa;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial,Helvetica, sans-serif;
 }
@@ -30,26 +30,31 @@ h1, h2 {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 10px;
     width: 100%;
-    padding: 16px;
+    padding: 5px;
     text-align: center;
     opacity: 0.65;
     background-color: var(--accent1-color);
     color: #121212;
 }
 
-article {
-    position: absolute;
-
-}
-
-nav, p, article, section {
-    margin: 16px;
+nav, p, section {
+    margin: 6px;
     padding: 8px;
 }
 
+li{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+}
 
+li a {
+    display: block;
+    align-items: center;
+    padding: 5px 10px;
+}
 
 .flex{
     display: grid;
@@ -59,6 +64,8 @@ nav, p, article, section {
 
 .flex img {
     border-radius: 10px;
+    height: 100px;
+    width: auto;
 }
 
 .flex ul { 
@@ -97,12 +104,14 @@ section h2 {
 .hero article img { 
     float: right;
     width: 125px;
-}
+    opacity: 100;
+}   
 
 .hero article {
     position: absolute;
-    bottom: 20px;
-    padding: 16px;
+    width: 100%;
+    bottom: 10px;
+    padding: 10px;
     opacity: 0.9;
     background-color: var(--accent1-color);
     color: #121212;
@@ -217,6 +226,9 @@ button:hover {
     background-color: gray;
 }
 
+a:hover {
+    background-color: gray;
+}
 .employees {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -235,4 +247,129 @@ button:hover {
     font-size: small;
     height: auto;
     width: 150px;
+}
+
+
+.newsletter { 
+    text-align: center;
+    margin: 25px 0px 0px;
+    padding: 0px;
+}
+
+.newsletter p {
+    margin: 1px;
+    padding: 1px;
+}
+
+.newsletter button {
+    padding: 3px;
+    background-color: antiquewhite;
+}
+
+.newsletter button:hover {
+    background-color: #FFD95A;
+}
+
+.newsletter button {
+    margin: 15px;
+}
+
+.purpose {
+    width: 850px;
+    margin: 0px;
+    text-align: center;
+}
+
+.purpose h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--accent1-color);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.grid-item h3 {
+    margin: 10px 0;
+    color: #1d6161;
+}
+
+.grid-item p {
+    font-size: medium;
+    color: #333;
+}
+
+.contactus {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+
+.contactus a {
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: gray;
+    font-weight: 100;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.trip-card {
+    background-color: #f7fbfc;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+
+.trip-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trip-card h3 {
+    margin: 10px 0;
+    color: var(--primary-color);
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0;
+    background-color: white;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.table th {
+    background-color: var(--primary-color);
+    color: white;
 }
